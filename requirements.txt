@@ -1,0 +1,9 @@
+pandas
+pyodbc
+python-dotenv
+matplotlib
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+g4f==0.5.0.4

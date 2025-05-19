@@ -1,0 +1,78 @@
+site_name: Meu Querido Diário
+site_description: Aplicação de rastreamento automatizado de publicações no Diário Oficial da União
+site_author: FUNPRESP-JUD - GEARC
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo-semfundo.png
+  favicon: assets/favicon.ico
+  palette:
+    - scheme: default
+      primary: gray
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Alternar para modo escuro
+    - scheme: slate
+      primary: deep gray
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Alternar para modo claro
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.expand
+    - navigation.top
+    - navigation.tabs
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.tabs.link
+    - content.tooltips
+    - toc.integrate
+nav:
+  - Início: index.md
+  - Funcionamento:
+      - Coleta de Dados: pages/coleta.md
+      - Interpretação com IA: pages/interpretacao.md
+      - Padronização: pages/padroniza.md
+      - Etapa Final: pages/pos_processo.md
+  - Como executar: pages/executar.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - footnotes
+  - def_list
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - attr_list
+  - codehilite
+  - abbr
+
+
+extra_css:
+  - stylesheets/custom.css  # se quiser personalizar com seu estilo
+
+extra_javascript:
+  - javascripts/custom.js  # opcional para JS extra
+
+plugins:
+  - search
+  - mkdocstrings

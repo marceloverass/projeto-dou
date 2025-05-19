@@ -1,0 +1,651 @@
+2025-04-09 14:42:09,816 - INFO - ====== WebDriver manager ======
+2025-04-09 14:42:11,542 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-09 14:42:11,730 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-09 14:42:11,809 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-09 14:43:30,686 - INFO - ====== WebDriver manager ======
+2025-04-09 14:43:32,130 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-09 14:43:32,241 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-09 14:43:32,335 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-09 15:05:26,228 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-09 15:05:26,526 - INFO - E-mail de sucesso enviado para andre.machado@funprespjud.com.br
+2025-04-10 13:40:33,063 - INFO - ====== WebDriver manager ======
+2025-04-10 13:40:34,796 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 13:40:34,948 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 13:40:35,043 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 13:40:35,279 - INFO - WebDriver version 135.0.7049.84 selected
+2025-04-10 13:40:35,279 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-10 13:40:35,279 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-10 13:40:35,451 - INFO - Driver downloading response is 200
+2025-04-10 13:40:35,700 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 13:40:35,950 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84]
+2025-04-10 13:40:57,857 - INFO - ====== WebDriver manager ======
+2025-04-10 13:41:00,045 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 13:41:00,156 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 13:41:00,253 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-10 13:44:14,848 - INFO - ====== WebDriver manager ======
+2025-04-10 13:44:16,546 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 13:44:16,670 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 13:44:16,764 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-10 14:11:23,913 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-10 14:11:24,320 - INFO - E-mail de sucesso enviado para gearc@funprespjud.com.br
+2025-04-10 14:39:08,572 - INFO - ====== WebDriver manager ======
+2025-04-10 14:39:10,267 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 14:39:10,406 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 14:39:10,490 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-10 14:41:12,642 - ERROR - Erro ao processar os dados:
+Traceback (most recent call last):
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Cï¿½digo\Auto_CleaningDay.py", line 119, in limpeza_diaria
+    df = scrape_in_links(dia, mes, ano)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Cï¿½digo\salvaLinksDOU.py", line 26, in scrape_in_links
+    driver.get(url_base)
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 389, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 378, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\remote\remote_connection.py", line 391, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\remote\remote_connection.py", line 415, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=63211): Read timed out. (read timeout=120)
+2025-04-10 14:42:01,875 - INFO - ====== WebDriver manager ======
+2025-04-10 14:42:03,586 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 14:42:03,680 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 14:42:03,793 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-10 14:45:47,706 - ERROR - Erro ao processar os dados:
+Traceback (most recent call last):
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connection.py", line 507, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Cï¿½digo\Auto_CleaningDay.py", line 119, in limpeza_diaria
+    df = scrape_in_links(dia, mes, ano)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Cï¿½digo\salvaLinksDOU.py", line 39, in scrape_in_links
+    driver.get(url)
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 389, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 378, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\remote\remote_connection.py", line 391, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\remote\remote_connection.py", line 415, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='localhost', port=63303): Read timed out. (read timeout=120)
+2025-04-10 14:51:34,632 - INFO - ====== WebDriver manager ======
+2025-04-10 14:51:36,736 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 14:51:36,956 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-10 14:51:37,176 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-11 18:58:07,842 - INFO - ====== WebDriver manager ======
+2025-04-11 18:58:09,260 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-11 18:58:09,418 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-11 18:58:09,511 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-11 18:58:09,759 - INFO - WebDriver version 135.0.7049.84 selected
+2025-04-11 18:58:09,759 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-11 18:58:09,759 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-11 18:58:09,902 - INFO - Driver downloading response is 200
+2025-04-11 18:58:10,142 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-11 18:58:10,398 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84]
+2025-04-11 19:42:37,143 - INFO - ====== WebDriver manager ======
+2025-04-11 19:42:38,848 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-11 19:42:39,004 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-11 19:42:39,098 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-11 20:24:39,142 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-11 20:24:44,470 - INFO - E-mail de sucesso enviado para marcelo.sampaio@funprespjud.com.br
+2025-04-11 20:36:31,102 - INFO - ====== WebDriver manager ======
+2025-04-11 20:36:32,799 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-11 20:36:32,974 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-11 20:36:33,071 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-14 17:47:59,706 - INFO - ====== WebDriver manager ======
+2025-04-14 17:48:01,197 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 17:48:01,357 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 17:48:01,439 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 17:48:01,659 - INFO - WebDriver version 135.0.7049.84 selected
+2025-04-14 17:48:01,675 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-14 17:48:01,675 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-14 17:48:01,807 - INFO - Driver downloading response is 200
+2025-04-14 17:48:02,096 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 17:48:02,375 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84]
+2025-04-14 18:01:20,309 - INFO - ====== WebDriver manager ======
+2025-04-14 18:01:21,705 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 18:01:21,853 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 18:01:21,941 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-14 18:12:27,764 - INFO - ====== WebDriver manager ======
+2025-04-14 18:12:29,751 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 18:12:29,867 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 18:12:29,968 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-14 18:40:04,364 - INFO - ====== WebDriver manager ======
+2025-04-14 18:40:05,765 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 18:40:05,920 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-14 18:40:06,016 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-15 10:42:17,919 - INFO - ====== WebDriver manager ======
+2025-04-15 10:42:19,768 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 10:42:19,956 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 10:42:20,040 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 10:42:20,279 - INFO - WebDriver version 135.0.7049.84 selected
+2025-04-15 10:42:20,279 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-15 10:42:20,279 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.84/win32/chromedriver-win32.zip
+2025-04-15 10:42:20,406 - INFO - Driver downloading response is 200
+2025-04-15 10:42:20,659 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 10:42:20,925 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84]
+2025-04-15 10:42:44,984 - INFO - ====== WebDriver manager ======
+2025-04-15 10:42:47,143 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 10:42:47,300 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 10:42:47,395 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-15 10:47:48,238 - INFO - ====== WebDriver manager ======
+2025-04-15 10:47:49,747 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 10:47:49,890 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 10:47:49,970 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-15 11:15:30,546 - INFO - ====== WebDriver manager ======
+2025-04-15 11:15:32,061 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 11:15:32,182 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 11:15:32,276 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-15 11:44:45,551 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-15 11:44:46,866 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-04-15 12:06:37,755 - INFO - ====== WebDriver manager ======
+2025-04-15 12:06:40,817 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 12:06:40,989 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-15 12:06:41,082 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.84\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-15 12:52:09,220 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-15 12:52:16,124 - INFO - E-mail de sucesso com gráfico enviado para marcos.marinho@funprespjud.com.br
+2025-04-16 10:40:11,297 - INFO - ====== WebDriver manager ======
+2025-04-16 10:40:13,079 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-16 10:40:13,274 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-16 10:40:13,366 - INFO - There is no [win64] chromedriver "135.0.7049.95" for browser google-chrome "135.0.7049" in cache
+2025-04-16 10:40:13,366 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-16 10:40:13,618 - INFO - WebDriver version 135.0.7049.95 selected
+2025-04-16 10:40:13,618 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.95/win32/chromedriver-win32.zip
+2025-04-16 10:40:13,618 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.95/win32/chromedriver-win32.zip
+2025-04-16 10:40:13,756 - INFO - Driver downloading response is 200
+2025-04-16 10:40:14,006 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-16 10:40:14,260 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.95]
+2025-04-16 11:04:58,935 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-16 11:05:01,405 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-04-17 08:56:33,073 - INFO - ====== WebDriver manager ======
+2025-04-17 08:56:35,204 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 08:56:35,348 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 08:56:35,443 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 08:56:35,927 - INFO - WebDriver version 135.0.7049.95 selected
+2025-04-17 08:56:35,927 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.95/win32/chromedriver-win32.zip
+2025-04-17 08:56:35,927 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.95/win32/chromedriver-win32.zip
+2025-04-17 08:56:36,054 - INFO - Driver downloading response is 200
+2025-04-17 08:56:36,304 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 08:56:36,554 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.95]
+2025-04-17 08:59:11,226 - INFO - ====== WebDriver manager ======
+2025-04-17 08:59:12,822 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 08:59:12,917 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 08:59:13,026 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-17 10:00:40,957 - INFO - ====== WebDriver manager ======
+2025-04-17 10:00:42,556 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 10:00:42,891 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 10:00:42,984 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-17 10:00:45,368 - ERROR - Erro ao processar os dados:
+Traceback (most recent call last):
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Código\Auto_CleaningDay.py", line 158, in limpeza_diaria
+    df = scrape_in_links(dia, mes, ano)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Código\salvaLinksDOU.py", line 26, in scrape_in_links
+    driver.get(url_base)
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 389, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\remote\webdriver.py", line 380, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_RESET
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+	GetHandleVerifier [0x004C8073+60707]
+	GetHandleVerifier [0x004C80B4+60772]
+	(No symbol) [0x002F0683]
+	(No symbol) [0x002EDAE0]
+	(No symbol) [0x002E1458]
+	(No symbol) [0x002E2D40]
+	(No symbol) [0x002E16E8]
+	(No symbol) [0x002E1243]
+	(No symbol) [0x002E0F51]
+	(No symbol) [0x002DEF30]
+	(No symbol) [0x002DF8CB]
+	(No symbol) [0x002F400E]
+	(No symbol) [0x0037F427]
+	(No symbol) [0x0035D04C]
+	(No symbol) [0x0037E824]
+	(No symbol) [0x0035CE46]
+	(No symbol) [0x0032C5D3]
+	(No symbol) [0x0032D424]
+	GetHandleVerifier [0x0070BB53+2435075]
+	GetHandleVerifier [0x007070F3+2416035]
+	GetHandleVerifier [0x0072349C+2531660]
+	GetHandleVerifier [0x004DF145+155125]
+	GetHandleVerifier [0x004E5AED+182173]
+	GetHandleVerifier [0x004CF948+91640]
+	GetHandleVerifier [0x004CFAF0+92064]
+	GetHandleVerifier [0x004BA5B0+4704]
+	BaseThreadInitThunk [0x763C7BA9+25]
+	RtlInitializeExceptionChain [0x7740C0CB+107]
+	RtlClearBits [0x7740C04F+191]
+
+2025-04-17 10:00:45,617 - INFO - E-mail de erro enviado para giovani.rocha@funprespjud.com.br
+2025-04-17 13:08:18,752 - INFO - ====== WebDriver manager ======
+2025-04-17 13:08:20,985 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 13:08:21,093 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 13:08:21,181 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-17 13:08:30,762 - INFO - ====== WebDriver manager ======
+2025-04-17 13:08:32,034 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 13:08:32,128 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 13:08:32,206 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-17 13:08:50,233 - INFO - ====== WebDriver manager ======
+2025-04-17 13:08:51,509 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 13:08:51,620 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 13:08:51,715 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-17 13:10:06,645 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pgr/mpf-n-206-de-14-de-abril-de-2025-624366647
+2025-04-17 13:10:06,691 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pgr/mpf-n-206-de-14-de-abril-de-2025-624366647
+2025-04-17 13:10:07,097 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pgr/mpf-n-207-de-14-de-abril-de-2025-624347255
+2025-04-17 13:10:07,504 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pgr/mpf-n-201-de-14-de-abril-de-2025-624366517
+2025-04-17 13:10:07,909 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pgr/mpf-n-202-de-14-de-abril-de-2025-624345566
+2025-04-17 13:10:08,352 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pgr/mpf-n-204-de-15-de-abril-de-2025-624337025
+2025-04-17 13:10:08,782 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pgr/mpf-n-205-de-15-de-abril-de-2025-624373704
+2025-04-17 13:10:09,191 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pgr/mpf-n-211-de-15-de-abril-de-2025-624325271
+2025-04-17 13:10:09,683 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-93-de-15-de-abril-de-2025-624334528
+2025-04-17 13:10:10,085 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pgj-n-295-de-15-de-abril-de-2025-624336986
+2025-04-17 13:10:10,586 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-353-de-14-de-abril-de-2025-624362855
+2025-04-17 13:10:13,979 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-352-de-14-de-abril-de-2025-624332457
+2025-04-17 13:10:14,378 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-354-de-14-de-abril-de-2025-624366438
+2025-04-17 13:10:15,103 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portarias-de-15-de-abril-de-2025-624349011
+2025-04-17 13:10:15,568 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-127-de-15-de-abril-de-2025-624353520
+2025-04-17 13:10:16,272 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-128-de-15-de-abril-de-2025-624370832
+2025-04-17 13:10:16,632 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-67-de-14-de-abril-de-2025-624325192
+2025-04-17 13:10:17,727 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pr/rs-n-131-de-10-de-abril-de-2025-624342881
+2025-04-17 13:10:22,894 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pr/rs-n-134-de-14-de-abril-de-2025-624353357
+2025-04-17 13:10:23,316 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-51-de-10-de-abril-de-2025-624341270
+2025-04-17 13:10:24,429 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-69-de-15-de-abril-de-2025-624342723
+2025-04-17 13:10:24,534 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-69-de-15-de-abril-de-2025-624342723
+2025-04-17 13:10:24,976 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-67-de-14-de-abril-de-2025-624376070
+2025-04-17 13:10:25,350 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-112-de-15-de-abril-de-2025-624366410
+2025-04-17 13:10:26,117 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-n-209-de-15-de-abril-de-2025-624338353
+2025-04-17 13:10:27,066 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-n-205-de-14-de-abril-de-2025-624373546
+2025-04-17 13:10:27,473 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-n-4.833-de-15-de-abril-de-2025-624330239
+2025-04-17 13:10:27,878 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-presi-n-241-de-15-de-abril-de-2025-624362725
+2025-04-17 13:10:28,332 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-presi-n-242-de-15-de-abril-de-2025-624342565
+2025-04-17 13:10:28,785 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-presi-n-243-de-15-de-abril-de-2025-624366280
+2025-04-17 13:10:29,319 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-presi-n-244-de-15-de-abril-de-2025-624373518
+2025-04-17 13:10:30,566 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-presi-n-420-de-15-de-abril-de-2025-624342537
+2025-04-17 13:10:30,627 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-presi-n-420-de-15-de-abril-de-2025-624342537
+2025-04-17 13:10:31,038 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-presi-n-421-de-15-de-abril-de-2025-624345431
+2025-04-17 13:10:31,545 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-presi-n-422-de-15-de-abril-de-2025-624326264
+2025-04-17 13:10:31,973 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-presi-n-424-de-15-de-abril-de-2025-624373388
+2025-04-17 13:10:32,475 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-presi-n-425-de-15-de-abril-de-2025-624347097
+2025-04-17 13:10:33,331 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-n-200-de-15-de-abril-de-2025-624370702
+2025-04-17 13:10:33,754 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-23.877-de-15-de-abril-de-2025-624342407
+2025-04-17 13:10:34,217 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-tre-pb/ptre/aspre-n-94-de-15-de-abril-de-2025-624342379
+2025-04-17 13:10:34,679 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-tre-pb/ptre/aspre-n-93-de-15-de-abril-de-2025-624375991
+2025-04-17 13:10:35,161 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-n-100-de-14-de-abril-de-2025-624366229
+2025-04-17 13:10:35,647 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/portaria-pres/dg/sgp/copes-n-198-de-14-de-abril-de-2025-624353278
+2025-04-17 13:10:36,129 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-presi-n-76-de-10-de-abril-de-2025-624336772
+2025-04-17 13:10:36,555 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-presi-n-74-de-9-de-abril-de-2025-624353204
+2025-04-17 13:10:37,050 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-trt21-gp-n-107-de-15-de-abril-de-2025-624368701
+2025-04-17 13:10:37,129 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /web/dou/-/ato-trt21-gp-n-107-de-15-de-abril-de-2025-624368701
+2025-04-17 13:19:11,479 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-17 13:19:13,070 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-04-22 09:53:49,437 - INFO - ====== WebDriver manager ======
+2025-04-22 09:53:51,013 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-22 09:53:51,122 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-22 09:53:51,217 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-22 09:56:08,478 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-22 09:56:10,039 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-04-23 08:32:53,799 - INFO - ====== WebDriver manager ======
+2025-04-23 08:32:55,550 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 08:32:55,708 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 08:32:55,801 - INFO - There is no [win64] chromedriver "135.0.7049.97" for browser google-chrome "135.0.7049" in cache
+2025-04-23 08:32:55,802 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 08:32:56,015 - INFO - WebDriver version 135.0.7049.97 selected
+2025-04-23 08:32:56,015 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.97/win32/chromedriver-win32.zip
+2025-04-23 08:32:56,015 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.97/win32/chromedriver-win32.zip
+2025-04-23 08:32:56,253 - INFO - Driver downloading response is 200
+2025-04-23 08:32:56,537 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-23 08:32:56,783 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.97]
+2025-04-23 09:37:34,040 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-23 09:37:35,831 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-04-24 08:44:56,688 - INFO - ====== WebDriver manager ======
+2025-04-24 08:44:58,587 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 08:44:58,757 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 08:44:58,854 - INFO - There is no [win64] chromedriver "135.0.7049.114" for browser google-chrome "135.0.7049" in cache
+2025-04-24 08:44:58,856 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 08:44:59,092 - INFO - WebDriver version 135.0.7049.114 selected
+2025-04-24 08:44:59,097 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-24 08:44:59,099 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-24 08:44:59,239 - INFO - Driver downloading response is 200
+2025-04-24 08:44:59,477 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 08:44:59,740 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-04-24 08:45:46,841 - INFO - ====== WebDriver manager ======
+2025-04-24 08:45:48,443 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 08:45:48,537 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-24 08:45:48,647 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-24 09:18:06,071 - WARNING - Erro ao inserir linha LUIZ CARLOS BRANDAO DE OLIVEIRA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-04-24 09:18:06,071 - WARNING - Erro ao inserir linha ANGELA GORETTI FERREIRA AMAZONAS DE OLIVEIRA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-04-24 09:18:06,132 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-24 09:18:07,989 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-04-25 12:14:07,248 - INFO - ====== WebDriver manager ======
+2025-04-25 12:14:08,981 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-25 12:14:09,117 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-25 12:14:09,227 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-25 12:14:10,070 - INFO - WebDriver version 135.0.7049.114 selected
+2025-04-25 12:14:10,086 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-25 12:14:10,086 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-25 12:14:10,239 - INFO - Driver downloading response is 200
+2025-04-25 12:14:10,492 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-25 12:14:10,759 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-04-25 12:28:17,784 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-25 12:28:19,305 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-04-28 11:47:50,730 - INFO - ====== WebDriver manager ======
+2025-04-28 11:47:52,546 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-28 11:47:52,703 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-28 11:47:52,814 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-28 11:47:53,065 - INFO - WebDriver version 135.0.7049.114 selected
+2025-04-28 11:47:53,065 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-28 11:47:53,065 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-28 11:47:53,222 - INFO - Driver downloading response is 200
+2025-04-28 11:47:53,542 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-28 11:47:53,804 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-04-28 12:07:54,047 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-28 12:07:56,704 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-04-29 08:31:20,928 - INFO - ====== WebDriver manager ======
+2025-04-29 08:31:22,728 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 08:31:22,905 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 08:31:22,987 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 08:31:23,235 - INFO - WebDriver version 135.0.7049.114 selected
+2025-04-29 08:31:23,235 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-29 08:31:23,235 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-29 08:31:23,387 - INFO - Driver downloading response is 200
+2025-04-29 08:31:23,703 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-29 08:31:24,016 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-04-29 08:58:03,083 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-29 08:58:04,895 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-04-30 09:55:03,651 - INFO - ====== WebDriver manager ======
+2025-04-30 09:55:05,151 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 09:55:05,323 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 09:55:05,402 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 09:55:05,667 - INFO - WebDriver version 135.0.7049.114 selected
+2025-04-30 09:55:05,667 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-30 09:55:05,667 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-04-30 09:55:05,794 - INFO - Driver downloading response is 200
+2025-04-30 09:55:06,061 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-30 09:55:06,322 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-04-30 09:58:12,334 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002545BB2B620>, 'Connection to www.in.gov.br timed out. (connect timeout=10)')': /web/dou/-/portaria-trt/sgpe-n-113-de-28-de-abril-de-2025-626403455
+2025-04-30 10:07:37,409 - WARNING - Erro ao inserir linha ANNA CAROLINE VERLAGE RIBEIRO: ('22001', '[22001] [Microsoft][ODBC SQL Server Driver][SQL Server]String or binary data would be truncated. (8152) (SQLExecDirectW); [22001] [Microsoft][ODBC SQL Server Driver][SQL Server]The statement has been terminated. (3621)')
+2025-04-30 10:07:37,771 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-04-30 10:07:39,352 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-05-02 11:47:26,123 - INFO - ====== WebDriver manager ======
+2025-05-02 11:47:28,217 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 11:47:28,422 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 11:47:28,516 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 11:47:28,768 - INFO - WebDriver version 135.0.7049.114 selected
+2025-05-02 11:47:28,783 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-05-02 11:47:28,783 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-05-02 11:47:28,909 - INFO - Driver downloading response is 200
+2025-05-02 11:47:29,152 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 11:47:29,397 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-05-02 11:47:42,978 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /session/df1e01d5414f164d4263732f1cada4d5
+2025-05-02 11:48:27,088 - INFO - ====== WebDriver manager ======
+2025-05-02 11:48:28,596 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 11:48:28,721 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 11:48:28,816 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-02 11:49:44,136 - INFO - ====== WebDriver manager ======
+2025-05-02 11:49:45,896 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 11:49:46,021 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 11:49:46,108 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-02 11:49:57,607 - ERROR - Erro ao processar os dados:
+Traceback (most recent call last):
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Código\Auto_CleaningDay.py", line 158, in limpeza_diaria
+    df_api_diario = ler_dataframe_diario(df)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Código\api_AI_automate_diario.py", line 71, in ler_dataframe_diario
+    texts_array = df['TEXTO'].tolist()
+                  ~~^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'TEXTO'
+2025-05-02 11:51:00,524 - INFO - ====== WebDriver manager ======
+2025-05-02 11:51:01,837 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 11:51:01,947 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-02 11:51:02,041 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-02 12:08:56,495 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-05-02 12:08:59,898 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-05-06 09:52:29,448 - INFO - ====== WebDriver manager ======
+2025-05-06 09:52:30,943 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-06 09:52:31,119 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-06 09:52:31,213 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-06 09:52:31,454 - INFO - WebDriver version 135.0.7049.114 selected
+2025-05-06 09:52:31,454 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-05-06 09:52:31,463 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-05-06 09:52:31,709 - INFO - Driver downloading response is 200
+2025-05-06 09:52:32,011 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-06 09:52:32,265 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-05-06 09:54:33,439 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001A18756E630>, 'Connection to www.in.gov.br timed out. (connect timeout=10)')': /web/dou/-/portaria-sg/mpf-n-326-de-10-de-abril-de-2025-627041001
+2025-05-06 10:31:04,856 - WARNING - Erro ao inserir linha ANDRESSA GABRIELI PEREIRA SILVA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-06 10:31:04,859 - WARNING - Erro ao inserir linha GABRIEL PEREIRA DA SILVA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-06 10:31:04,872 - WARNING - Erro ao inserir linha RAFAEL MENDES DOS SANTOS: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-06 10:31:04,887 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-05-06 10:31:08,138 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-05-07 11:13:53,966 - INFO - ====== WebDriver manager ======
+2025-05-07 11:13:55,654 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 11:13:55,808 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 11:13:55,900 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 11:13:56,139 - INFO - WebDriver version 135.0.7049.114 selected
+2025-05-07 11:13:56,139 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-05-07 11:13:56,139 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-05-07 11:13:56,265 - INFO - Driver downloading response is 200
+2025-05-07 11:13:56,556 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-07 11:13:56,821 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-05-07 11:32:30,658 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-05-07 11:32:32,292 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-05-08 09:58:52,129 - INFO - ====== WebDriver manager ======
+2025-05-08 09:58:53,884 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 09:58:54,059 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 09:58:54,160 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 09:58:54,549 - INFO - WebDriver version 135.0.7049.114 selected
+2025-05-08 09:58:54,554 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-05-08 09:58:54,567 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-05-08 09:58:54,692 - INFO - Driver downloading response is 200
+2025-05-08 09:58:54,915 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 09:58:55,196 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-05-08 10:02:12,242 - ERROR - Erro ao processar os dados:
+Traceback (most recent call last):
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Código\Auto_CleaningDay.py", line 158, in limpeza_diaria
+    df_api_diario = ler_dataframe_diario(df)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Código\api_AI_automate_diario.py", line 71, in ler_dataframe_diario
+    texts_array = df['TEXTO'].tolist()
+                  ~~^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\marcos.marinho\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'TEXTO'
+2025-05-08 10:07:00,180 - INFO - ====== WebDriver manager ======
+2025-05-08 10:07:01,871 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 10:07:02,030 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 10:07:02,132 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-08 10:09:04,020 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /session/b0f49157529b02717b663ff9875b0e49
+2025-05-08 10:09:17,725 - INFO - ====== WebDriver manager ======
+2025-05-08 10:09:19,384 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 10:09:19,491 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 10:09:19,576 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-08 10:13:21,855 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000160540AC650>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/871cd964b90ef81433b59d99375acec4
+2025-05-08 10:13:25,901 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000160540AE900>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/871cd964b90ef81433b59d99375acec4
+2025-05-08 10:13:29,975 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000160540AE9C0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/871cd964b90ef81433b59d99375acec4
+2025-05-08 10:15:30,986 - INFO - ====== WebDriver manager ======
+2025-05-08 10:15:32,316 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 10:15:32,428 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 10:15:32,524 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-08 10:18:14,756 - INFO - ====== WebDriver manager ======
+2025-05-08 10:18:16,128 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 10:18:16,231 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-08 10:18:16,320 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-08 10:21:35,243 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000025E75ED4DD0>, 'Connection to www.in.gov.br timed out. (connect timeout=10)')': /web/dou/-/portaria-pgr/mpf-n-253-de-5-de-maio-de-2025-627669074
+2025-05-08 10:39:55,516 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-05-08 10:39:57,180 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-05-09 12:37:06,658 - INFO - ====== WebDriver manager ======
+2025-05-09 12:37:08,402 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 12:37:08,544 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 12:37:08,638 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 12:37:08,889 - INFO - WebDriver version 135.0.7049.114 selected
+2025-05-09 12:37:08,905 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-05-09 12:37:08,905 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/135.0.7049.114/win32/chromedriver-win32.zip
+2025-05-09 12:37:09,047 - INFO - Driver downloading response is 200
+2025-05-09 12:37:09,283 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 12:37:09,550 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114]
+2025-05-09 12:59:25,702 - WARNING - Erro ao inserir linha EDSON GOMES DA SILVA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-09 12:59:25,765 - WARNING - Erro ao inserir linha MARIANA SOUZA ALVES ANTONELLI SANTANA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-09 12:59:25,778 - WARNING - Erro ao inserir linha JOAO PAULO SARAIVA MARTINS CABRAL: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-09 12:59:25,815 - WARNING - Erro ao inserir linha JAIME COSTA LOBO: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-09 12:59:25,859 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-05-09 12:59:26,054 - ERROR - Erro ao processar os dados:
+Traceback (most recent call last):
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Código\Auto_CleaningDay.py", line 169, in limpeza_diaria
+    enviar_email_sucesso(df_final)
+  File "w:\DISEG\GEARC\_RESTRITO\Projeto DOU\Código\Auto_CleaningDay.py", line 71, in enviar_email_sucesso
+    ontem = ontem.strftime("%d/%m/%Y")
+            ^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'strftime'
+2025-05-09 13:27:53,619 - INFO - ====== WebDriver manager ======
+2025-05-09 13:27:55,385 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 13:27:55,512 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 13:27:55,622 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-09 13:38:01,635 - INFO - ====== WebDriver manager ======
+2025-05-09 13:38:03,519 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 13:38:03,733 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-09 13:38:03,823 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\135.0.7049.114\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-09 13:57:37,699 - WARNING - Erro ao inserir linha EDSON GOMES DA SILVA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-09 13:57:37,699 - WARNING - Erro ao inserir linha MARIANA SOUZA ALVES ANTONELLI SANTANA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-09 13:57:37,699 - WARNING - Erro ao inserir linha JOAO PAULO SARAIVA MARTINS CABRAL: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-09 13:57:37,699 - WARNING - Erro ao inserir linha JAIME COSTA LOBO: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-09 13:57:37,699 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-05-09 13:57:39,602 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-05-12 08:55:51,481 - INFO - ====== WebDriver manager ======
+2025-05-12 08:55:53,718 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 08:55:53,885 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 08:55:53,980 - INFO - There is no [win64] chromedriver "136.0.7103.92" for browser google-chrome "136.0.7103" in cache
+2025-05-12 08:55:53,980 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 08:55:54,218 - INFO - WebDriver version 136.0.7103.92 selected
+2025-05-12 08:55:54,218 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.92/win32/chromedriver-win32.zip
+2025-05-12 08:55:54,218 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.92/win32/chromedriver-win32.zip
+2025-05-12 08:55:54,369 - INFO - Driver downloading response is 200
+2025-05-12 08:55:54,609 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 08:55:54,869 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\136.0.7103.92]
+2025-05-12 09:06:25,017 - INFO - ====== WebDriver manager ======
+2025-05-12 09:06:26,442 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 09:06:26,606 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-12 09:06:26,718 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\136.0.7103.92\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-12 09:21:47,531 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-05-12 09:21:49,177 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-05-13 11:01:50,904 - INFO - ====== WebDriver manager ======
+2025-05-13 11:01:52,449 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 11:01:52,608 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 11:01:52,703 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 11:01:52,965 - INFO - WebDriver version 136.0.7103.92 selected
+2025-05-13 11:01:52,965 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.92/win32/chromedriver-win32.zip
+2025-05-13 11:01:52,965 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.92/win32/chromedriver-win32.zip
+2025-05-13 11:01:53,100 - INFO - Driver downloading response is 200
+2025-05-13 11:01:53,339 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-13 11:01:53,591 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\136.0.7103.92]
+2025-05-13 11:34:10,699 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-05-13 11:34:12,320 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br

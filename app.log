@@ -1,0 +1,2 @@
+2025-05-16 14:25:05,887 - WARNING - Erro ao inserir linha (NOME: João da Silva): ('22018', "[22018] [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the nvarchar value 'Efetivo' to data type int. (245) (SQLExecDirectW)")
+2025-05-16 14:27:39,971 - WARNING - Erro ao inserir linha (NOME: João da Silva): ('22018', "[22018] [Microsoft][ODBC SQL Server Driver][SQL Server]Conversion failed when converting the nvarchar value 'Efetivo' to data type int. (245) (SQLExecDirectW)")

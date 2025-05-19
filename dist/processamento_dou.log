@@ -1,0 +1,102 @@
+2025-05-14 14:17:30,677 - INFO - ====== WebDriver manager ======
+2025-05-14 14:17:32,075 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 14:17:32,200 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 14:17:32,294 - INFO - There is no [win64] chromedriver "136.0.7103.94" for browser google-chrome "136.0.7103" in cache
+2025-05-14 14:17:32,294 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 14:17:32,531 - INFO - WebDriver version 136.0.7103.94 selected
+2025-05-14 14:17:32,546 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-14 14:17:32,546 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-14 14:17:32,673 - INFO - Driver downloading response is 200
+2025-05-14 14:17:32,925 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 14:17:33,144 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\136.0.7103.94]
+2025-05-14 14:32:15,386 - ERROR - Erro de conexão com o banco de dados:
+Traceback (most recent call last):
+  File "app\main.py", line 210, in inserir_dados
+pyodbc.InterfaceError: ('28000', "[28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456)")
+2025-05-14 14:32:15,387 - ERROR - Erro ao processar os dados:
+Traceback (most recent call last):
+  File "app\main.py", line 201, in limpeza_diaria
+  File "app\main.py", line 210, in inserir_dados
+pyodbc.InterfaceError: ('28000', "[28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456)")
+2025-05-14 14:55:14,094 - INFO - ====== WebDriver manager ======
+2025-05-14 14:55:15,648 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 14:55:15,773 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 14:55:15,852 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\136.0.7103.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-14 15:35:47,351 - INFO - ====== WebDriver manager ======
+2025-05-14 15:35:48,719 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 15:35:48,828 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 15:35:48,923 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\136.0.7103.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-14 15:36:00,448 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /session/9738e676049705f2de8889ed1bdbc347
+2025-05-14 15:41:50,604 - INFO - ====== WebDriver manager ======
+2025-05-14 15:41:52,094 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 15:41:52,189 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 15:41:52,288 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\136.0.7103.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-14 16:02:36,047 - ERROR - Erro de conexão com o banco de dados:
+Traceback (most recent call last):
+  File "app\main.py", line 212, in inserir_dados
+pyodbc.InterfaceError: ('28000', "[28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456)")
+2025-05-14 16:02:36,047 - ERROR - Erro ao processar os dados:
+Traceback (most recent call last):
+  File "app\main.py", line 203, in limpeza_diaria
+  File "app\main.py", line 212, in inserir_dados
+pyodbc.InterfaceError: ('28000', "[28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456)")
+2025-05-14 16:28:22,407 - INFO - ====== WebDriver manager ======
+2025-05-14 16:28:23,915 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 16:28:24,041 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 16:28:24,135 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\136.0.7103.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-14 16:44:08,055 - ERROR - Erro de conexão com o banco de dados:
+Traceback (most recent call last):
+  File "app\main.py", line 212, in inserir_dados
+pyodbc.InterfaceError: ('28000', "[28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456)")
+2025-05-14 16:44:08,055 - ERROR - Erro ao processar os dados:
+Traceback (most recent call last):
+  File "app\main.py", line 203, in limpeza_diaria
+  File "app\main.py", line 212, in inserir_dados
+pyodbc.InterfaceError: ('28000', "[28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'marcos.marinho'. (18456)")
+2025-05-14 17:15:16,882 - ERROR - Falha ao conectar com o banco de dados: ('28000', "[28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'None'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC SQL Server Driver][SQL Server]Login failed for user 'None'. (18456)")
+2025-05-14 17:18:50,562 - INFO - Conexão com o banco de dados bem-sucedida.
+2025-05-14 17:18:50,562 - INFO - ====== WebDriver manager ======
+2025-05-14 17:18:52,889 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 17:18:52,998 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-14 17:18:53,093 - INFO - Driver [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\136.0.7103.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-14 17:34:31,840 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-05-14 17:34:33,064 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-05-15 10:05:40,352 - INFO - Conexão com o banco de dados bem-sucedida.
+2025-05-15 10:05:40,353 - INFO - ====== WebDriver manager ======
+2025-05-15 10:05:43,171 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 10:05:43,282 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 10:05:43,394 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 10:05:43,633 - INFO - WebDriver version 136.0.7103.94 selected
+2025-05-15 10:05:43,641 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-15 10:05:43,641 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-15 10:05:43,855 - INFO - Driver downloading response is 200
+2025-05-15 10:05:44,126 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 10:05:44,361 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\136.0.7103.94]
+2025-05-15 10:29:10,944 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-05-15 10:29:12,223 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
+2025-05-16 13:47:42,627 - INFO - Conexão com o banco de dados bem-sucedida.
+2025-05-16 13:47:42,642 - INFO - ====== WebDriver manager ======
+2025-05-16 13:47:46,179 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-16 13:47:46,320 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-16 13:47:46,415 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-16 13:47:46,697 - INFO - WebDriver version 136.0.7103.94 selected
+2025-05-16 13:47:46,697 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-16 13:47:46,697 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-16 13:47:46,824 - INFO - Driver downloading response is 200
+2025-05-16 13:47:47,059 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-16 13:47:47,312 - INFO - Driver has been saved in cache [C:\Users\marcos.marinho\.wdm\drivers\chromedriver\win64\136.0.7103.94]
+2025-05-16 13:59:29,822 - WARNING - Erro ao inserir linha JUSCIMAR RIBEIRO DA SILVA GUIMARAES: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,837 - WARNING - Erro ao inserir linha CLAUDIO NONATO DE JESUS: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,838 - WARNING - Erro ao inserir linha WAYNE LEE GOMES BATISTA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,838 - WARNING - Erro ao inserir linha JEZIEL DE LIMA SILVA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,854 - WARNING - Erro ao inserir linha UELLITON PEREIRA DA COSTA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,854 - WARNING - Erro ao inserir linha KALVIN BRANDON DE OLIVEIRA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,854 - WARNING - Erro ao inserir linha GENIVALDA SOUZA DOURADO: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,868 - WARNING - Erro ao inserir linha LUZIMAR DE SOUSA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,871 - WARNING - Erro ao inserir linha LUISA SEVERO MOSCARDINI: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,874 - WARNING - Erro ao inserir linha IRCIMONY PEREIRA DOS SANTOS: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,878 - WARNING - Erro ao inserir linha ARTHUR BARREIRO SOARES: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,881 - WARNING - Erro ao inserir linha RENATO GOMES DA SILVA APOLINARIO: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,884 - WARNING - Erro ao inserir linha SILVANIA DE SOUZA BRAGA: ('42000', '[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 8 (""): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision. (8023) (SQLExecDirectW)')
+2025-05-16 13:59:29,896 - INFO - Dados inseridos com sucesso na tabela MQD!
+2025-05-16 13:59:32,114 - INFO - E-mail de sucesso com gráfico enviado para giovani.rocha@funprespjud.com.br
