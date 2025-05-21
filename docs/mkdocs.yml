@@ -1,6 +1,7 @@
 site_name: Meu Querido Diário
 site_description: Aplicação de rastreamento automatizado de publicações no Diário Oficial da União
 site_author: FUNPRESP-JUD - GEARC
+site_url: https://meuqueridodiario.com
 
 theme:
   name: material
